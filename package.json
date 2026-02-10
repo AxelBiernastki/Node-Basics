@@ -1,0 +1,21 @@
+{
+  "name": "do-zero",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node --watch server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fastify": "^5.7.4",
+    "postgres": "^3.4.8"
+  },
+  "devDependencies": {
+    "dotenv": "^17.2.4"
+  }
+}

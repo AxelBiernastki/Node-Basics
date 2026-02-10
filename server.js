@@ -53,7 +53,7 @@ server.put('/videos/:id', async (request, reply) => {
 // DELETE http://localhost:3333/videos
 // Route Parameters: http://localhost:3333/videos/:id
 
-server.delete('/videos/:id', async (request, reply) => {
+server.delete('/videos-delete/:id', async (request, reply) => {
     const videoId = request.params.id
 
     await database.delete(videoId)

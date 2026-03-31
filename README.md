@@ -4,8 +4,8 @@
   <table>
     <tr>
       <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original-wordmark.svg"width="150" alt="postgres icon" /></td>
-      <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-plain-wordmark.svg" width="150" alt="postgres icon"/></td>
       <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/fastify/fastify-original-wordmark.svg" width="200" alt="fastify icon"/></td>   
+      <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-plain-wordmark.svg" width="150" alt="postgres icon"/></td>
     </tr>
   </table>
 </div>

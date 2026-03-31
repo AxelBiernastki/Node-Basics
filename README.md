@@ -160,8 +160,8 @@ CREATE TABLE videos (
 
 #### Clonar o repositório
 ```bash
-git clone <url-do-repositorio>
-cd <nome-do-projeto>
+git clone https://github.com/AxelBiernastki/Node-Basics.git
+cd Node-Basics
 ```
 
 #### Instalar as dependências
@@ -182,10 +182,12 @@ Este projeto foi configurado para usar um banco PostgreSQL hospedado no Neon.
 ```bash
 node create-table.js
 ```
+
 #### Executar em desenvolvimento
 ```bash
 npm run dev
 ```
+
 #### Executar normalmente
 ```bash
 npm start
@@ -194,12 +196,6 @@ npm start
 A aplicação sobe por padrão em:
 
 `http://localhost:3333`
-
-#### Scripts disponíveis
-```bash
-npm run dev
-npm start
-```
 
 ## Conceitos praticados no projeto
 - criação de API REST

@@ -1,5 +1,15 @@
 # Conceitos Básicos do Node
 
+<div align="center">
+  <table>
+    <tr>
+      <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original-wordmark.svg"width="150" alt="postgres icon" /></td>
+      <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-plain-wordmark.svg" width="150" alt="postgres icon"/></td>
+      <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/fastify/fastify-original-wordmark.svg" width="200" alt="fastify icon"/></td>   
+    </tr>
+  </table>
+</div>
+
 > API simples para cadastro e gerenciamento de vídeos, desenvolvida para estudo de conceitos básicos de **Node.js**, **Fastify** e **PostgreSQL**.
 
 ## Principais funcionalidades
@@ -212,6 +222,5 @@ A aplicação sobe por padrão em:
 - o projeto é simples e focado em aprendizado
 - não possui validações mais robustas
 - não possui testes automatizados
-- a rota de exclusão está definida como `/videos-delete/:id`
 - existe uma implementação em memória e outra com PostgreSQL
 - no server.js está sendo usada a implementação com PostgreSQL

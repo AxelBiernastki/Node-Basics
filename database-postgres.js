@@ -35,6 +35,24 @@ export class DatabasePostgres {
         `
     }
 
+    async patch(id, video) {
+        const title = video.title ?? null
+        const description = video.description ?? null
+        const duration = video.duration ?? null
+
+        const updated = await sql`
+            UPDATE videos
+            SET
+                title = COALESCE(${title}, title),
+                description = COALESCE(${description}, description),
+                duration = COALESCE(${duration}, duration)
+            WHERE id = ${id}
+            RETURNING *
+            `
+
+        return updated?.[0] ?? null
+    }
+
     async update(id, video) {
         const { title, description, duration } = video
 

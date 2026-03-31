@@ -50,6 +50,23 @@ server.put('/videos/:id', async (request, reply) => {
     return reply.status(200).send(updatedVideo)
 })
 
+server.patch('/videos/:id', async (req, res) => {
+    const videoId = req.params.id
+    const { title, description, duration } = req.body
+
+    const update = await database.patch(videoId, {
+        title,
+        description,
+        duration
+    })
+
+    if(!update) return res.status(404).send({ message: 'video not found' })
+
+    const updateVideo = await database.list(null).then(videos => videos.find(video => video.id === videoId))
+
+    return res.status(200).send(updateVideo)
+})
+
 // DELETE http://localhost:3333/videos
 // Route Parameters: http://localhost:3333/videos/:id
 

@@ -1,4 +1,4 @@
-# Node-Basics
+# Conceitos Básicos do Node
 
 > API simples para cadastro e gerenciamento de vídeos, desenvolvida para estudo de conceitos básicos de **Node.js**, **Fastify** e **PostgreSQL**.
 
